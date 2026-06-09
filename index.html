@@ -8,7 +8,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-<link rel="manifest" href="images/site.webmanifest">The
+<link rel="manifest" href="images/site.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
@@ -67,7 +67,7 @@
   }
   .section-label::before { content: ''; display: block; width: 24px; height: 2px; background: var(--teal); }
   .section h2 { font-family: 'Playfair Display', serif; font-size: clamp(24px, 3.5vw, 36px); font-weight: 700; color: var(--navy); margin-bottom: 20px; line-height: 1.2; }
-  .section p { font-size: 16px; color: var(--slate); line-height: 1.8; max-width: 720px; }
+  .section p { font-size: 18px; color: var(--slate); line-height: 1.8; max-width: 720px; }
   .section p + p { margin-top: 14px; }
 
   .divider { border: none; border-top: 1px solid var(--border); max-width: 960px; margin: 0 auto; }
@@ -159,7 +159,7 @@
   .founder-photo-placeholder span { font-size: 12px; color: var(--light-text); }
   .founder-name { font-family: 'Playfair Display', serif; font-size: clamp(24px, 3.5vw, 36px); font-weight: 700; color: var(--navy); margin-bottom: 4px; }
   .founder-title { font-size: 12px; color: var(--teal); font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 18px; }
-  .founder-body p { font-size: 16px; color: var(--slate); line-height: 1.8; }
+  .founder-body p { font-size: 18px; color: var(--slate); line-height: 1.8; }
   .founder-body p + p { margin-top: 14px; }
 
   /* CTA */
@@ -288,7 +288,7 @@
         </div>
         <div class="vision-point">
           <strong>Standard filters. No lock-in.</strong>
-          <p>Commodity HVAC filters from any supplier. Replaced when a differential pressure sensor says they are needed, not on a calendar.</p>
+          <p>Commodity HVAC filters from any supplier. Replaced when a pressure sensor says they are needed, not on a calendar.</p>
         </div>
         <div class="vision-point">
           <strong>Every room. Live data.</strong>
@@ -394,7 +394,7 @@
       <p class="prototype-caption">Beta unit deployed in a woodshop at Industry Lab coworking center in Cambridge, MA</p>
     </div>
     <div>
-      <p>This unit has been running at Industry Lab in Cambridge since early 2025, continuously recording PM2.5, CO2, VOC index, NOx index, CADR, and measured filter life. The sensor dashboard is publicly accessible and reflects live data.</p>
+      <p>This unit is running in the woodshop at Industry Lab in Cambridge, continuously recording PM2.5, CO2, VOC index, NOx index, CADR, and measured filter life. The sensor dashboard is publicly accessible and reflects live data.</p>
       <!-- LIVE DASHBOARD LINK - update href if Grafana URL changes -->
       <a href="https://tbdair.grafana.net/public-dashboards/8e7f2252cd314fc6a07604733c34a6c2?from=now-4d&to=now&timezone=browser" target="_blank" class="live-link">
         <span class="live-dot"></span>
@@ -466,17 +466,21 @@
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:32px;">
 
     <div>
-      <img src="images/bill headshot.jpg" alt="Bill Dixon" style="width:100%;height:220px;object-fit:cover;object-position:center top;border-radius:8px;margin-bottom:20px;">
-      <div class="founder-name">Bill Dixon</div>
-      <div class="founder-title">Co-Founder</div>
-      <p style="font-size:15px;color:var(--slate);line-height:1.8;">Mechanical engineer and three-time founder, most recently building anti-counterfeiting hardware for Arc'teryx and Canada Goose. Previously ran business development at LeafLabs, and spent time as an oilfield engineer in Oman. MIT Delta V accelerator alum and $50,000 MassChallenge winner.</p>
+      <a href="https://www.linkedin.com/in/william-dixon-18957a34/" target="_blank" style="text-decoration:none;">
+        <div class="founder-name" style="color:var(--navy);">Bill Dixon</div>
+        <div class="founder-title">Co-Founder</div>
+        <div style="font-size:13px;color:var(--teal);margin-top:4px;">View LinkedIn profile →</div>
+      </a>
+      <p style="font-size:18px;color:var(--slate);line-height:1.8;">Mechanical engineer and three-time founder, most recently building anti-counterfeiting hardware for Arc'teryx and Canada Goose. Previously ran business development at LeafLabs, and spent time as an oilfield engineer in Oman. MIT Delta V accelerator alum and $50,000 MassChallenge winner.</p>
     </div>
 
     <div>
-      <img src="images/david headshot.jpg" alt="David Carel" style="width:100%;height:220px;object-fit:cover;object-position:center top;border-radius:8px;margin-bottom:20px;">
-      <div class="founder-name">David Carel</div>
-      <div class="founder-title">Co-Founder and Advisor</div>
-      <p style="font-size:15px;color:var(--slate);line-height:1.8;">Currently leads the Clean Air for Schools Fund at Renaissance Philanthropy and previously focused on pandemic prevention infrastructure at Blueprint Biosecurity. Co-founder of Panorama Education (YC S13), now in roughly 20% of US schools. David was a Forbes 30 Under 30 in Education and a Rhodes Scholar.</p>
+      <a href="https://www.linkedin.com/in/david-carel-b433251b3/" target="_blank" style="text-decoration:none;">
+        <div class="founder-name" style="color:var(--navy);">David Carel</div>
+        <div class="founder-title">Co-Founder and Advisor</div>
+        <div style="font-size:13px;color:var(--teal);margin-top:4px;">View LinkedIn profile →</div>
+      </a>
+      <p style="font-size:18px;color:var(--slate);line-height:1.8;">Currently leads the Clean Air for Schools Fund at Renaissance Philanthropy and previously focused on pandemic prevention infrastructure at Blueprint Biosecurity. Co-founder of Panorama Education (YC S13), now in roughly 20% of US schools. David was a Forbes 30 Under 30 in Education and a Rhodes Scholar.</p>
     </div>
 
   </div>
