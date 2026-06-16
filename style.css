@@ -52,10 +52,11 @@ nav img { height: 32px; }
 .hero-body p + p { margin-top: 16px; }
 .hero-ctas { display: flex; gap: 16px; margin-top: 32px; flex-wrap: wrap; }
 .hero-cta-primary {
-  display: inline-block; padding: 14px 32px; background: var(--navy); color: white;
-  text-decoration: none; border-radius: 4px; font-size: 16px; font-weight: 500; transition: background 0.2s;
+  display: inline-block; padding: 14px 32px; background: white; color: var(--navy);
+  text-decoration: none; border-radius: 4px; font-size: 16px; font-weight: 500;
+  border: 1.5px solid var(--navy); transition: all 0.2s;
 }
-.hero-cta-primary:hover { background: var(--blue); }
+.hero-cta-primary:hover { background: var(--navy); color: white; }
 .hero-cta-secondary {
   display: inline-block; padding: 14px 32px; background: transparent; color: var(--navy);
   text-decoration: none; border-radius: 4px; font-size: 16px; font-weight: 500;
