@@ -13,6 +13,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script async data-id="101507813" src="//static.getclicky.com/js"></script>
+<style>
+  #building-img { width: 434px; max-height: none; }
+  @media (max-width: 700px) {
+    #building-img { width: 100%; }
+  }
+</style>
 </head>
 <body>
 
@@ -27,17 +34,13 @@
 </nav>
 
 <!-- =============================================
-     WHY NOW
-     - Market size, research shift, biosecurity
+     OPENER
+     - Framing for the company page
 ============================================= -->
 <section class="section page-top fade-in">
-  <div class="section-label">Why now</div>
-  <h2>This is why we are building Tidal Air.</h2>
-  <p>Biosecurity threats from AI and synthetic biology represent a serious and growing risk, and indoor air filtration is one of the most practical ways to reduce respiratory disease transmission at scale. It is also why we are building Tidal Air. We are not alone in this concern, with the OpenAI Foundation, Coefficient Giving, and ARPA-H among organizations committing hundreds of millions of dollars per year to biosecurity infrastructure, and that number is growing.</p>
-
-  <p>Fortunately, clean air in buildings has significant value well beyond pandemic preparedness. A growing body of research links indoor air quality to cognitive performance, respiratory health, and productivity, and that evidence base is expanding rapidly. Building compliance frameworks including WELL, RESET, and LEED are beginning to require verified continuous air quality measurement and the global portable air purifier market has reached $12.8 billion in 2025, growing at nearly 7% annually and now larger than at any point during the COVID-19 pandemic.</p>
-
-  <p>The conditions to meaningfully scale indoor air purification are here now.</p>
+  <div class="section-label">The company</div>
+  <h2>What we're building and why.</h2>
+  <p>This page covers why we start with schools, why the current products fail at institutional scale, and what Tidal Air is building instead.</p>
 </section>
 
 <hr class="divider">
@@ -48,26 +51,42 @@
 ============================================= -->
 <section class="section fade-in">
   <div class="section-label">The beachhead</div>
-  <h2>Schools first. Every building is the goal.</h2>
+  <h2>Schools first. Every building eventually.</h2>
   <img src="images/CrowdedClass.jpg" alt="Crowded classroom" class="beachhead-img">
-  <p>With over 3 million classrooms in the US and the 100 largest districts responsible for roughly 1 in 4 students nationally, schools represent a concentrated and scalable market.</p>
-  <p>Schools also have immediate reasons to care: wildfire smoke is now an annual reality across much of the country, asthma is the leading cause of chronic absenteeism, research increasingly links particulate matter exposure to drops in attendance and test scores, and there is growing evidence that cleaner air meaningfully reduces the spread of seasonal illness.</p>
-  <p>Since COVID, districts have been spending on this problem. But current air purifier offerings, often mass rollouts of residential units, are an exceptionally poor fit for large-scale institutional deployments. The three largest adoption blockers are:</p>
+  <p>Over 3 million classrooms in the US. The 100 largest districts serve roughly 1 in 4 students nationally. Concentrated, scalable, and the demand is already there.</p>
+  <p>Wildfire smoke is now an annual event across much of the country. Chronic absenteeism from respiratory illness is a growing problem. <a href="https://cleanschoolair.org/case-for-clean-air">Research links clean air to attendance and cognitive performance</a>, and districts are starting to act on it with real budget. Funding mechanisms exist and are expanding.</p>
+  <p>Schools are also where the playbook gets built. When biosecurity concerns push verified clean air requirements into offices, hospitals, and public buildings, the product and operations need to already exist. That's why schools come first.</p>
+</section>
 
-  <div class="failed-grid">
-    <div class="failed-item">
-      <strong>Too Loud to Actually Use</strong>
-      <p>Units are marketed at maximum fan speeds which are loud enough to disrupt instruction. Teachers turn them down or off entirely.</p>
+<hr class="divider">
+
+<!-- =============================================
+     THE GAP
+     - Why the existing category is broken
+============================================= -->
+<section class="section fade-in">
+  <div class="section-label">The gap</div>
+  <h2>Built for living rooms, deployed across schools.</h2>
+  <img src="images/ClassroomPurifier.webp" alt="Portable air purifier in a classroom" class="beachhead-img">
+  <p>Since COVID, school districts have spent heavily on air purification. The results have been poor, and the reasons are structural, not incidental. The products available were designed for consumers and sold into institutions without any of the tooling institutions actually need.</p>
+  <p>The three problems that keep showing up:</p>
+
+  <div class="vision-points">
+    <div class="vision-point">
+      <strong style="font-size:18px;">Too loud to actually use.</strong>
+      <p style="font-size:18px;">Portable purifiers are marketed at maximum fan speeds that are loud enough to disrupt instruction. Teachers turn them down or off. The noise levels that are appropriate for a classroom deliver a fraction of advertised performance. The headline numbers are fiction.</p>
     </div>
-    <div class="failed-item">
-      <strong>High Operating Costs</strong>
-      <p>Proprietary filter replacements are a core revenue source for air purifier brands, with filter costs often exceeding the original hardware investment within two years.</p>
+    <div class="vision-point">
+      <strong style="font-size:18px;">Captive consumables.</strong>
+      <p style="font-size:18px;">Proprietary filters, often over $100 per set, on a replacement schedule designed to generate revenue rather than reflect actual filter condition. Over three years, filter replacement costs exceed the original hardware investment.</p>
     </div>
-    <div class="failed-item">
-      <strong>Unmanageable at Scale</strong>
-      <p>There is no way to manage multiple units at once or verify that air quality standards are actually being met.</p>
+    <div class="vision-point">
+      <strong style="font-size:18px;">No way to manage or verify anything at scale.</strong>
+      <p style="font-size:18px;">There is no fleet visibility, no measurement of whether air quality standards are actually being met, and no way for a facilities team to manage hundreds of units across a district without physically visiting each one. Districts are buying boxes and hoping.</p>
     </div>
   </div>
+
+  <p style="margin-top:32px;padding-top:24px;font-size:18px;color:var(--slate);line-height:1.8;max-width:none;">These are not bugs in a few products. This is the architecture of the entire category. The products institutions are buying were designed for living rooms, not school districts.</p>
 </section>
 
 <hr class="divider">
@@ -80,108 +99,23 @@
 <section class="section fade-in">
   <div class="section-label">What we're building</div>
   <h2>The enterprise version of air purification.</h2>
-  <div class="vision-grid">
-    <img src="images/rendering-classroom.jpg" alt="Tidal Air ceiling unit in classroom">
-    <div>
-      <p>Tidal Air is to portable air purifiers what enterprise wifi is to a home router: centrally visible, remotely manageable, and built to cover an entire campus from a single interface.</p>
-      <div class="vision-points">
-        <div class="vision-point">
-          <strong>Ceiling-mounted. Always on.</strong>
-          <p>Out of reach, out of the way, and quiet enough that nobody turns it off. Meets classroom acoustic standards at full performance.</p>
-        </div>
-        <div class="vision-point">
-          <strong>Standard filters. No lock-in.</strong>
-          <p>Commodity HVAC filters from any supplier. Replaced when a pressure sensor says they are needed, not on a calendar.</p>
-        </div>
-        <div class="vision-point">
-          <strong>Every room. Live data.</strong>
-          <p>Each unit continuously measures PM2.5, CO2, CADR, and filter life. A single dashboard shows every room across an entire district.</p>
-        </div>
-      </div>
+  <p>Air quality cannot be managed as infrastructure using products designed for a consumer's bedroom. The fix starts with hardware, extends to the business model, and changes how a district actually manages air quality across its buildings.</p>
+  <img src="images/rendering-classroom.jpg" alt="Tidal Air ceiling unit in classroom" class="beachhead-img" id="building-img">
+  <div class="vision-points">
+    <div class="vision-point">
+      <strong style="font-size:18px;">Hardware designed for classrooms, not living rooms.</strong>
+      <p style="font-size:18px;">Ceiling-mounted, out of reach, out of the way. Quiet enough to run at full performance during instruction without violating the classroom acoustic standard. Moves enough air to meet the CDC-endorsed target for reducing airborne transmission. Nobody turns it off because nobody needs to.</p>
+    </div>
+    <div class="vision-point">
+      <strong style="font-size:18px;">A business model that enables deployment, not one that punishes it.</strong>
+      <p style="font-size:18px;">Every unit uses off-the-shelf HVAC filters from any supplier. Replacement is triggered by a sensor measuring actual filter condition, not a calendar. Reaching high scale means districts need to be able to say yes without the economics working against them. The current industry model does not allow that. Tidal Air grows when infrastructure grows, not when filters expire.</p>
+    </div>
+    <div class="vision-point">
+      <strong style="font-size:18px;">Clean air for the building, not a purifier for a room.</strong>
+      <p style="font-size:18px;">Each unit reports its own performance continuously, and a single dashboard makes that legible and actionable for a facilities director or a principal, not just an engineer reading raw data.</p>
     </div>
   </div>
-  <p style="margin-top:32px;padding-top:24px;font-size:18px;color:var(--slate);line-height:1.8;max-width:none;">Taken together, every room gets a continuous verified answer to whether filtered air delivery is sufficient to reduce pathogen spread, not just whether a purifier is running.</p>
-</section>
-
-<hr class="divider">
-
-<!-- =============================================
-     HEAD TO HEAD COMPARISON
-     - Left card: Coway (competitor)
-     - Right card: Tidal Air (ours, navy header)
-     - Images: images/coway-airmega-prox.png, images/tidal-prototype-unit.jpg
-============================================= -->
-<section class="section fade-in">
-  <div class="section-label">Engineered Different</div>
-  <h2>Designed for classrooms, not living rooms.</h2>
-  <p>Portable air purifiers were designed for consumer use, optimized for aesthetics and proprietary filter revenue rather than institutional performance. Manufacturers report performance at maximum fan speed, which no teacher would tolerate, so the specs that look impressive on the box have little bearing on what actually happens in a classroom.</p>
-
-  <p>We started with different constraints. The result is a first prototype that delivers more clean air at classroom-appropriate noise levels, runs on a fraction of the power, and costs 80% less to maintain. The unit in the comparison below was built specifically to test this in a comparable form factor, and there is significant room to improve from here.</p>
-  <div class="comparison-cards">
-
-    <div class="comp-card">
-      <div class="comp-header">
-        <div class="comp-header-name">Coway Airmega ProX</div>
-        <div class="comp-header-sub">#1 Pick, Consumer Reports and HouseFresh</div>
-      </div>
-      <div class="comp-specs">
-        <div class="comp-specs-row">
-          <div class="comp-photo-wrap" style="background:white;padding:4px;border-radius:4px;">
-            <img src="images/Coway-Air-Purifer.png" alt="Coway Airmega ProX">
-          </div>
-          <div class="comp-spec-list">
-            <div class="comp-spec"><strong>Price:</strong> $999</div>
-            <div class="comp-spec"><strong>Filter cost:</strong> $200 / year</div>
-            <div class="comp-spec"><strong>Weight:</strong> 50 lbs</div>
-            <div class="comp-spec"><strong>Filter type:</strong> Proprietary</div>
-          </div>
-        </div>
-      </div>
-      <div class="comp-table-wrap">
-      <table class="comp-table">
-        <thead><tr><th>CADR (PM1)</th><th>Power</th><th>Noise (dBA)</th></tr></thead>
-        <tbody>
-          <tr><td>462 cfm</td><td>59W ($93/yr)</td><td>53.6</td></tr>
-          <tr><td>292 cfm</td><td>26W ($40/yr)</td><td>44.4</td></tr>
-          <tr><td>212 cfm</td><td>12W ($19/yr)</td><td>37.4</td></tr>
-        </tbody>
-      </table>
-      </div>
-      <div class="comp-note">Measurements from housefresh.com review</div>
-    </div>
-
-    <div class="comp-card ours">
-      <div class="comp-header">
-        <div class="comp-header-name">Tidal Air Prototype</div>
-        <div class="comp-header-sub">First and unoptimized build</div>
-      </div>
-      <div class="comp-specs">
-        <div class="comp-specs-row">
-          <div class="comp-photo-wrap">
-            <img src="images/tidal-prototype-unit.jpg" alt="Tidal Air Prototype">
-          </div>
-          <div class="comp-spec-list">
-            <div class="comp-spec"><strong>Cost:</strong> ~$175 (excl. sensors)</div>
-            <div class="comp-spec"><strong>Filter cost:</strong> $40 / 12+ months</div>
-            <div class="comp-spec"><strong>Weight:</strong> ~10 lbs</div>
-            <div class="comp-spec"><strong>Filter type:</strong> Standard HVAC</div>
-          </div>
-        </div>
-      </div>
-      <div class="comp-table-wrap">
-      <table class="comp-table">
-        <thead><tr><th>CADR (PM1)</th><th>Power</th><th>Noise (dBA)</th></tr></thead>
-        <tbody>
-          <tr><td>717 cfm</td><td>38W ($60/yr)</td><td>55.1</td></tr>
-          <tr><td>347 cfm</td><td>9W ($14/yr)</td><td>39.1</td></tr>
-          <tr><td>215 cfm</td><td>4W ($6/yr)</td><td>32.0</td></tr>
-        </tbody>
-      </table>
-      </div>
-      <div class="comp-note" style="color:rgba(103,180,196,0.8);">Measurement method details available on request</div>
-    </div>
-
-  </div>
+  <p style="margin-top:32px;padding-top:24px;font-size:18px;color:var(--slate);line-height:1.8;max-width:none;">When the hardware stays on and performs, and the economics don't punish a district for scaling, clean air stops being a program that fades and starts being infrastructure that grows. The system proves it's working, and that proof is what makes the next building an easy yes.</p>
 </section>
 
 <hr class="divider">
